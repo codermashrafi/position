@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      .main {
+        height: 400px;
+        width: 600px;
+        background-color: black;
+        margin: 0px auto;
+        position: relative;
+      }
+      .red {
+        height: 100px;
+        width: 100px;
+        background: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 0 0 30px 0;
+      }
+      .green {
+        height: 100px;
+        width: 100px;
+        background: green;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 0 0 0 30px;
+      }
+      .yellow {
+        height: 100px;
+        width: 100px;
+        background: yellow;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 30px 0 0 0px;
+      }
+      .purple {
+        height: 100px;
+        width: 100px;
+        background: purple;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0px 30px 0 0px;
+      }
+      .orange {
+        height: 100px;
+        width: 100px;
+        background: orange;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        border-radius: 50%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="red"></div>
+      <div class="green"></div>
+      <div class="yellow"></div>
+      <div class="purple"></div>
+      <div class="orange"></div>
+    </div>
+  </body>
+</html>
